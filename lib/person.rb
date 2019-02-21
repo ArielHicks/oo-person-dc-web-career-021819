@@ -52,4 +52,8 @@ class Person
     @hygiene > 7
   end
 
+  def get_paid(salary)
+    
+  end
+
 end
