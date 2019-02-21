@@ -7,8 +7,8 @@
 
 class Person
 # First you need to create a person class that is initialized with a name that cannot be changed.
-  attr_accessor :bank_account, :happiness, :hygiene
-  attr_reader :name
+  attr_accessor :bank_account
+  attr_reader :name, :happiness, :hygiene
 
 # Each instance of class Personshould be able to remember their name
   def initialize(name)
