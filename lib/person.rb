@@ -30,9 +30,7 @@ class Person
        @happiness = 0
      else
        @happiness
-     end
-   end
- end
+  end
 
 
   end
