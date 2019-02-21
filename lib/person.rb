@@ -44,5 +44,7 @@ class Person
     @hygiene
   end
 
+  def happy?
+    @hygiene > 7
 
 end
