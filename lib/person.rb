@@ -53,7 +53,8 @@ class Person
   end
 
   def get_paid(salary)
-    
+    @bank_account + salary
+    puts "All about the benjamins"
   end
 
 end
