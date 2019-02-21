@@ -12,7 +12,10 @@ class Person
 # Each instance of class Personshould be able to remember their name
   def initialize(name)
     @name = name
+# Each instance of class Person should start with $25 in their bank accounts
     @bank_account = 25
+# Each instance of class Person should start with eight happiness points
+    @happiness = 8
   end
 
 
