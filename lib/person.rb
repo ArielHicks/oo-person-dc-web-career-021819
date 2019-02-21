@@ -28,7 +28,6 @@ class Person
        @happiness = 10
     elsif @happiness < 0
        @happiness = 0
-
   end
  @happiness
 
