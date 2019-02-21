@@ -78,7 +78,7 @@ class Person
 
   def start_conversation(person,topic)
     if topic == "politics"
-    return "blah blah partisan blah lobbyist"
+    return "blah blah partisan blah lobbyist" && @happiness -= 2
   end
 end
 
