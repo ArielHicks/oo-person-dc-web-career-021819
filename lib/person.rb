@@ -30,11 +30,19 @@ class Person
        @happiness = 0
     end
 @happiness
-
   end
   # The happiness and hygiene points should be able to change,
   # however the maximum and minimum points for both happiness
   # and hygiene should be 10 and 0 respectively
+  def hygiene=(new_value)
+    @hygiene = new_value
+    if @hygiene > 10
+      @hygiene = 10
+    elsif @hygiene < 0
+      @hygiene = 0
+    end
+    @hygiene
+  end
 
 
 end
