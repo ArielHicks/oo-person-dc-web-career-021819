@@ -7,6 +7,7 @@
 
 class Person
 # First you need to create a person class that is initialized with a name that cannot be changed.
+  attr_accessor :bank_account, :happiness, :hygiene
   attr_reader :name
 
 # Each instance of class Personshould be able to remember their name
