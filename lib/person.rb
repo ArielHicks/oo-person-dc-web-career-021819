@@ -28,10 +28,9 @@ class Person
        @happiness = 10
     elsif @happiness < 0
        @happiness = 0
-     else
-       @happiness
-  end
 
+  end
+ @happiness
 
   end
   # The happiness and hygiene points should be able to change,
