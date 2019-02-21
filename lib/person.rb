@@ -83,7 +83,7 @@ class Person
       return "blah blah partisan blah lobbyist"
     elsif topic == "weather"
       return "blah blah sun blah rain"
-    end
+
   end
 end
 
