@@ -16,7 +16,7 @@ class Person
 # Each instance of class Person should start with $25 in their bank accounts
     @bank_account = 25
 # Each instance of class Person should start with eight happiness points
-    @happiness = 8
+    @happiness = 10
 # Each instance of class Person should start with eight hygiene points
     @hygiene = 8
   end
