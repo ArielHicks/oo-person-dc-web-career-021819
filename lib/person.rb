@@ -11,7 +11,7 @@ class Person
   attr_reader :name
 
 # Each instance of class Personshould be able to remember their name
-  def initialize(name)
+  def initialize(name, bank_account, happiness, hygiene)
     @name = name
 # Each instance of class Person should start with $25 in their bank accounts
     @bank_account = 25
@@ -21,7 +21,7 @@ class Person
     @hygiene = 8
   end
 
-  
+
 
   # The happiness and hygiene points should be able to change,
   # however the maximum and minimum points for both happiness
