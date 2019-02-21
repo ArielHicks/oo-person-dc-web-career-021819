@@ -23,7 +23,7 @@ class Person
 
 
   def happiness=(happiness)
-
+    @happiness 
   end
   # The happiness and hygiene points should be able to change,
   # however the maximum and minimum points for both happiness
