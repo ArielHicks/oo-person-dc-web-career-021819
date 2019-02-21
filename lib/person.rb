@@ -24,7 +24,11 @@ class Person
 
   def happiness=(new_value)
     @happiness = new_value
-    if @happiness 
+    if @happiness > 10
+       @happiness = 10
+     elsif @happiness < 0
+       @happiness = 0
+
 
   end
   # The happiness and hygiene points should be able to change,
