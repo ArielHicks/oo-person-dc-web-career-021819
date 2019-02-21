@@ -22,7 +22,7 @@ class Person
   end
 
 
-  def happiness=(happiness)
+  def happiness=(new_value)
     @happiness = new_value
   end
   # The happiness and hygiene points should be able to change,
