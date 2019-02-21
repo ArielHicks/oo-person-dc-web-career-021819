@@ -26,7 +26,7 @@ class Person
     @happiness = new_value
     if @happiness > 10
        @happiness = 10
-     elsif @happiness < 0
+    elsif @happiness < 0
        @happiness = 0
 
 
