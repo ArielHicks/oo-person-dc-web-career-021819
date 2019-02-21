@@ -24,6 +24,8 @@ class Person
 
   def happiness=(new_value)
     @happiness = new_value
+    if @happiness 
+
   end
   # The happiness and hygiene points should be able to change,
   # however the maximum and minimum points for both happiness
